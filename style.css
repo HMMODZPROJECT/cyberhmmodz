@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  background: #0f0f0f;
+  color: #00ffff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 3em;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.neon-box {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #ffffffcc;
+  text-shadow: 0 0 5px cyan;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
